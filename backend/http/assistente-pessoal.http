@@ -1,0 +1,7 @@
+POST https://vitorhugoabreu.app.n8n.cloud/webhook/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatId": "1234546",
+    "mensagem": "Você trabalha com  React Native?"
+}

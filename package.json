@@ -1,0 +1,20 @@
+{
+  "name": "portvitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorhugohu6666/Portvitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorhugohu6666/Portvitor/issues"
+  },
+  "homepage": "https://github.com/vitorhugohu6666/Portvitor#readme",
+  "description": ""
+}
