@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   title: "Portvitor",
-  description: "Portfólio de projetos de desenvolvimento",
+  description: "Portfólio de projeto de desenvolvimento",
 };
 
 const fonte = Montserrat({
@@ -19,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-        <body className={`${fonte.className} antialiased`}>{children}</body>
+      <body
+        className={`${fonte.className} antialiased`}>{children}</body>
     </html>
   );
 }
