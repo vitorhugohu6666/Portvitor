@@ -20,6 +20,7 @@ export default function Principal(props: PrincipalProps) {
                     <span className="text-3xl sm:text-5xl font-bold text-center">
                         Leonardo Leitão
                     </span>
+                    <span className="w-2 h-2 rounded-full bg-red-500"></span>
                 </h1>
                 <h2 className="text-zinc-500 text-center">CTO da COD3R Ensino e Consultoria</h2>
                 </div>
